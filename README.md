@@ -1,7 +1,7 @@
 # Saudi-Dialect-Sentiment-Analyzer-Saudi-Arabic-NLP-Project-
 
 
-## 🧠 مشروع: محلل المشاعر باللهجة السعودية البيضاء
+##  مشروع: محلل المشاعر باللهجة السعودية البيضاء
 
 ### *(Saudi Dialect Sentiment Analyzer — Saudi Arabic NLP Project)* 
 This project is available in both Arabic and English below.
@@ -9,7 +9,7 @@ This project is available in both Arabic and English below.
 
 ---
 
-### 🩵 مقدمة :
+###  مقدمة :
 
 الذكاء الاصطناعي (AI) هو فرع من علوم الحاسب يهدف إلى جعل الأجهزة والبرامج “تفكر” وتتعلم مثل الإنسان.
 يعني بدل ما نعطي الجهاز أوامر محددة، نخليه **يتعلم الأنماط** من البيانات ويستنتج النتيجة بنفسه.
@@ -24,15 +24,26 @@ This project is available in both Arabic and English below.
 الفكرة أننا نعلّم الكمبيوتر **يفهم لهجتنا السعودية البيضاء** ويستنتج مشاعر النصوص — هل الكلام إيجابي، سلبي، أو محايد.
 
 ---
+### هيكلة المشروع 
+Saudi-Dialect-Sentiment-Analyzer/
+│
+├── 📄 README.md
+├── 💻 saudi_sentiment_model.ipynb
+├── 💻 saudi_sentiment_model.py
+├── 📊 dataset.csv
+├── 🧾 requirements.txt
+└── 📁 assets/
+    └── example_output.png
 
-### 🎯 الهدف من المشروع:
+
+###  الهدف من المشروع:
 
 إنشاء نموذج ذكاء اصطناعي يستطيع تحليل النصوص السعودية باللهجة اليومية،
 ويتعرف على *نغمة الكلام* — هل هي إيجابية، سلبية، أو محايدة — تمامًا مثل طريقة فهم البشر للمحادثات.
 
 ---
 
-### 🧩 الأدوات المستخدمة:
+###  الأدوات المستخدمة:
 
 * **Python**
 * **TensorFlow / Keras** لتصميم النموذج العصبي
@@ -41,7 +52,7 @@ This project is available in both Arabic and English below.
 
 ---
 
-### ⚙️ خطوات العمل:
+###  خطوات العمل:
 
 1. **جمع البيانات:**
    إنشاء مجموعة بيانات تحتوي على جمل سعودية بيضاء مثل:
@@ -62,7 +73,7 @@ This project is available in both Arabic and English below.
 
 ---
 
-### 💬 أمثلة على التوقعات:
+###  أمثلة على التوقعات:
 
 | النص                         | النتيجة   |
 | ---------------------------- | --------- |
@@ -72,7 +83,7 @@ This project is available in both Arabic and English below.
 
 ---
 
-### 🔍 مستقبل المشروع:
+###  مستقبل المشروع:
 
 النسخة الحالية تتعامل مع **اللهجة السعودية البيضاء**.
 النسخ القادمة ستركز على اللهجات المحلية (نجدية، حجازية، جنوبية...)
@@ -80,7 +91,7 @@ This project is available in both Arabic and English below.
 
 ---
 
-### 📚 عن المطوّرة:
+###  عن المطوّرة:
 
 المشروع من إعداد **أمل  البريكي**،
  **علوم حاسب —  مهندسة برمجيات**،
@@ -94,7 +105,7 @@ This project is available in both Arabic and English below.
 
 ---
 
-### 🧠 **Introduction**
+###  **Introduction**
 
 Artificial Intelligence (AI) is a field of computer science that aims to enable machines to think and learn like humans.
 Instead of giving the machine exact instructions, we train it with data so it can identify **patterns** and make predictions on its own.
@@ -105,14 +116,14 @@ and classify text sentiment as **positive**, **negative**, or **neutral**.
 
 ---
 
-### 🎯 **Project Goal**
+###  **Project Goal**
 
 To build an AI model that understands Saudi Arabic text and predicts whether the sentiment expressed in the text is positive, negative, or neutral —
 similar to how humans sense tone and emotion in daily speech.
 
 ---
 
-### 🧩 **Technologies Used**
+###  **Technologies Used**
 
 * **Python 3**
 * **TensorFlow / Keras** — for building and training the deep learning model
@@ -122,7 +133,7 @@ similar to how humans sense tone and emotion in daily speech.
 
 ---
 
-### ⚙️ **How It Works**
+###  **How It Works**
 
 1. **Data Preparation:**
    A small sample dataset is created using real Saudi Arabic expressions:
@@ -144,7 +155,7 @@ similar to how humans sense tone and emotion in daily speech.
 
 ---
 
-### 💻 **Example Code**
+###  **Example Code**
 
 Here’s a minimal version of the working model (can be run directly in **Google Colab**):
 
@@ -238,7 +249,7 @@ predict_sentiment("عادي الخدمة متوسطة")
 
 ---
 
-### 💬 **Example Output**
+###  **Example Output**
 
 ```
 Text: الخدمة كانت سريعة وممتازة  
@@ -253,7 +264,7 @@ Predicted Sentiment: neutral
 
 ---
 
-### 🚀 **Future Work**
+###  **Future Work**
 
 * Expand dataset to include **real Saudi tweets and reviews**.
 * Add **dialect-specific** models (Najdi, Hijazi, Southern, etc.).
@@ -261,7 +272,7 @@ Predicted Sentiment: neutral
 
 ---
 
-### 👩‍💻 **About the Developer**
+###  **About the Developer**
 
 **Amal  Al-Baraiki**
 Computer Science  — Software Engineering .
