@@ -3,7 +3,9 @@
 
 ## 🧠 مشروع: محلل المشاعر باللهجة السعودية البيضاء
 
-### *(Saudi Dialect Sentiment Analyzer — Saudi Arabic NLP Project)*
+### *(Saudi Dialect Sentiment Analyzer — Saudi Arabic NLP Project)* 
+This project is available in both Arabic and English below.
+المشروع متاح باللغتين: العربية والإنجليزية.
 
 ---
 
